@@ -1,7 +1,6 @@
 import argparse
 import multiprocessing as mp
 import torch
-from torch import nn
 from instructors.NE import NEIns
 from utils.general import read_pickle, write_pickle
 import config as cfg
@@ -27,7 +26,7 @@ def row_k_max(mat: np.ndarray, k: int, sort: bool = False) -> tuple:
         mat: similarity matrix
         k: number of candidates, default: 250
         sort: return descending rows or not, default: False
-    
+
     Return:
         matrix: a filtered similarity matrix with rowwise top-k elements
         col: column index of rowwise top-k elements

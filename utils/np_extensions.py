@@ -43,6 +43,6 @@ def pair2sparse(pairs: list, shape: tuple) -> csr_matrix:
 
 def np_relu(x: np.ndarray) -> np.ndarray:
     """
-    A numpy implementation of ReLU. 
+    A numpy implementation of ReLU.
     """
     return x * (x > 0)
