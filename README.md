@@ -10,7 +10,7 @@ This repository contains the source code for the paper *A Novel Framework with I
 - torch-geometric>=1.3.0
 
 ## Data description
-The data can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1gbJUaE59t4c8uLbJ7H03bljm2G0asoOM?usp=sharing). 
+The preprocessed data can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1gbJUaE59t4c8uLbJ7H03bljm2G0asoOM?usp=sharing). Due to the privacy concern, the raw data including user profiles and contents are not shared.
 
 ### Data for the information fusion component
 All data requires for the information fusion component lie in `data/`.
